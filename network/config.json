@@ -8,8 +8,8 @@
     "text": "cedric"
   },
   "text": {
-    "more": "test",
-    "intro": "test",
+    "more": "",
+    "intro": "",
     "title": "snap"
   },
   "legend": {
@@ -20,11 +20,11 @@
   "features": {
     "search": true,
     "groupSelectorAttribute": "Degré",
-    "hoverBehavior": "default"
+    "hoverBehavior": "dim"
   },
   "informationPanel": {
     "groupByEdgeDirection": false,
-    "imageAttribute": "Label"
+    "imageAttribute": false
   },
   "sigma": {
     "drawingProperties": {
@@ -33,7 +33,7 @@
       "defaultLabelBGColor": "#ddd",
       "activeFontStyle": "bold",
       "defaultLabelColor": "#000",
-      "labelThreshold": 10,
+      "labelThreshold": 5,
       "defaultLabelHoverColor": "#fff",
       "fontStyle": "bold",
       "hoverFontStyle": "bold",
@@ -42,8 +42,8 @@
     "graphProperties": {
       "maxEdgeSize": 0.5,
       "minEdgeSize": 0.2,
-      "minNodeSize": 1,
-      "maxNodeSize": 7
+      "minNodeSize": 2,
+      "maxNodeSize": 10
     },
     "mouseProperties": {
       "maxRatio": 20,
